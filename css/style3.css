@@ -1,0 +1,215 @@
+.o-nas-tittle{
+    margin: 150px 0 40px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+
+    
+    color: #FFFFFF;
+}
+
+
+.o-nas-titt{
+    margin: 0 0 40px;
+    left: 0px;
+    top: 490px;
+    width: 605px;
+    
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+
+    
+    
+    color: #FFFFFF;
+}
+
+
+.o-nas-decor{
+    margin-top: -148px;
+    position: absolute;
+    /* top: 214px; */
+    /* height: 400px; */
+
+
+    right: 0;
+    z-index: 1;
+
+    /* margin: auto; */
+    /* max-height: 50%; */
+
+
+    max-height: 57%;
+}
+
+.slide{
+    margin-top: 162px;
+}
+.slide-tittle{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+.card{
+    /* width: 220px; */
+    /* height: 480px; */
+    border-radius: 30px;
+
+
+}
+
+
+
+.slide-container{
+    max-width: 1180px;
+    width: 100%;
+    padding: 40px 0;
+    /* background-color: rgb(40, 185, 185); */
+
+    
+
+
+}
+
+.slide-content{
+    max-width: 990px;
+    width: 100%;
+    margin: 0 40px;
+    margin-left: 115px;
+
+    overflow: hidden;
+    border-radius: 30px;
+    /* background-color: aqua; */
+}
+
+.card-content{
+    border: 1px solid #564592;
+    border-radius: 30px;
+    width: 280px;
+    /* height: 50px; */
+    margin-top: 20px;
+
+}
+
+
+
+.name{
+    /* padding: 14px 17px 11px 17px; */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.card-image{
+    position: relative;
+    height: 370px;
+    width: 280px;
+    /* border: 1px solid #564592;
+    border-radius: 30px; */
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #564592;
+    border-radius: 30px;
+   
+}
+
+
+
+
+.swiper-navBtn-2{
+    content: url(/image/str_levo.png);
+
+    width: 65px;
+    height: 65px;
+
+    
+}
+
+.swiper-navBtn-1{
+    content: url(/image/str_pravo.png);
+    width: 65px;
+    height: 65px;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-button-next{
+    right: 0;
+}
+
+@media screen and (max-width:1200px){
+    .o-nas-decor{
+        max-height: 43%;
+    }
+
+    .container{
+        max-width: 900px;
+        width: 100%;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width:428px){
+    .slide-tittle{
+        font-size: 30px;
+    }
+    .o-nas-decor{
+        top: 513px;
+        max-height: 39%;
+    }
+
+    .o-nas-tittle{
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .o-nas-titt{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+        width: 350px;
+        margin-left: 34px;
+    }
+
+    .slide{
+        margin-top: 400px;
+    }
+    
+
+    
+    
+    
+}

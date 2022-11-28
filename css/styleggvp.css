@@ -1,0 +1,206 @@
+
+
+.card{
+    /* width: 220px; */
+    /* height: 480px; */
+    border-radius: 30px;
+
+
+}
+
+
+
+.slide-container{
+    max-width: 1180px;
+    width: 100%;
+    padding: 40px 0;
+    /* background-color: rgb(40, 185, 185); */
+
+    
+
+
+}
+
+.slide-content{
+    max-width: 990px;
+    width: 100%;
+    margin: 0 40px;
+    margin-left: 115px;
+
+    overflow: hidden;
+    border-radius: 30px;
+    /* background-color: aqua; */
+}
+
+.card-content{
+    border: 1px solid #564592;
+    border-radius: 30px;
+    width: 280px;
+    /* height: 50px; */
+    margin-top: 20px;
+
+}
+
+
+
+.name{
+    /* padding: 14px 17px 11px 17px; */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.card-image{
+    position: relative;
+    height: 370px;
+    width: 280px;
+    /* border: 1px solid #564592;
+    border-radius: 30px; */
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #564592;
+    border-radius: 30px;
+   
+}
+
+
+
+
+.swiper-navBtn-2{
+    content: url(/image/str_levo.png);
+
+    width: 65px;
+    height: 65px;
+
+    
+}
+
+.swiper-navBtn-1{
+    content: url(/image/str_pravo.png);
+    width: 65px;
+    height: 65px;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-button-next{
+    right: 0;
+}
+
+@media screen and (max-width:1200px){
+
+    .swiper-button-next{
+        right: -122px;
+    }
+    .slide-container{
+        max-width: 900px;
+        width: 100%;
+        padding: 40px 0;
+    
+    }
+    .card-image{
+        position: relative;
+        height: 300px;
+        width: 200px;
+
+    }
+    .card-content{
+        border: 1px solid #564592;
+        border-radius: 30px;
+        width: 200px;
+        /* height: 50px; */
+        margin-top: 20px;
+    
+    }
+    
+    
+    
+    .name{
+        /* padding: 14px 17px 11px 17px; */
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 140%;
+        /* or 25px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+
+    
+}
+
+@media screen and (max-width:428px) {
+    .swiper-button-next{
+        right: 46px;
+    }
+    .slide-container{
+        max-width: 800px;
+        width: 100%;
+        padding: 40px 0;
+        margin-left: 25px;
+    
+    }
+    .card-image{
+        position: relative;
+        height: 250px;
+        width: 150px;
+
+    }
+    .card-content{
+        border: 1px solid #564592;
+        border-radius: 30px;
+        width: 150px;
+        /* height: 50px; */
+        margin-top: 20px;
+    
+    }
+    
+    
+    
+    .name{
+        /* padding: 14px 17px 11px 17px; */
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 140%;
+        /* or 25px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .image-content{
+        width: 200px;
+
+    }
+
+    .card swiper-slide{
+        width: 200px;
+    }
+
+    
+
+
+    
+
+    
+}
