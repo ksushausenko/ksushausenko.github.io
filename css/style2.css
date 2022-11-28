@@ -1,0 +1,467 @@
+.tehnologi-i{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+   
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+summary{
+    list-style-type: none;
+
+}
+
+.accordion{
+    width: 580px;
+
+    gap: 60px; 
+
+}
+
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.accordion_item-1{
+    grid-column: span 6;
+}
+.accordion_item-2{
+    grid-column: span 6;
+}
+.accordion_item-3{
+    grid-column: span 6;
+}
+.accordion_item-4{
+    grid-column: span 6;
+}
+
+
+
+/* .accordion{
+    grid-column: span 12;
+
+} */
+
+
+.accordion_item-3{
+    margin-left: 20px;
+}
+.accordion_item-4{
+    margin-left: 20px;
+}
+
+.accordion_item{
+    border: 1px solid #564592;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+.accordion_tittle{
+    width: 580px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+    padding-top: 21px ;
+    padding-left: 30px;
+    padding-bottom: 21px;
+    position: relative;
+}
+
+.accordion_body{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+
+.accordion_tittle:hover{
+    color:#B2ABF2;
+}
+
+
+.accordion_tittle::after{
+    display: block;
+    content: url(/image/плюсик.svg);
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accordion_item[open] .accordion_tittle::after{
+    display: block;
+    content: url(/image/стрелочка.svg);
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.provision_tittle{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+   
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.provision_cards{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.provision_card{
+    background: rgba(81, 81, 81, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* card */
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 8px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+
+    width: 540px;
+    height: 300px;
+
+
+
+}
+
+.provision_titt{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    /* or 24px */
+    
+    text-transform: uppercase;
+    
+    /* text/menu */
+    
+    color: #B2ABF2;
+
+    padding: 15px 43px 0px 42px;
+}
+
+.provision_div{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 25px */
+    
+    
+    color: #FFFFFF;
+
+    padding: 0px 58px 35px 42px;
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        max-width: 428px;
+        width: 100%;
+    }
+    .logo-img{
+        max-width: 172px;
+        width: 100%;
+    }
+
+    .tehnologi-i{
+
+        width: 100%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .accordion{
+        width: 335px;
+    }
+
+    .accordion_tittle{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+        
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top: 12px;
+        padding-left: 17px;
+        padding-bottom: 12px;
+    }
+
+    .accordion_body{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+        position: relative;
+    }
+
+    .row{
+        display: block;
+        /* grid-template-columns: repeat(12, 1fr); */
+    }
+
+    .accordion_item{
+        width: 335px;
+        margin-left: 45px;
+    }
+
+    .provision_tittle{
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 120%;
+        /* identical to box height, or 28px */
+        
+        text-align: center;
+        margin-left: 28px;
+    }
+
+    .provision_cards{
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .provision_card{
+        width: 335px;
+        /* height: 500px; */
+        margin-left: 45px;
+    }
+
+    .provision_titt{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+        
+        text-transform: uppercase;
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-right: 0px;
+        
+     
+    }
+
+    .provision_div{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+        padding: 0px 0px 26px 20px;
+    }
+
+    .accordion_tittle::after{
+        display: block;
+        content: url(/image/mini-plys.png);
+        position: absolute;
+        right: 260px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .accordion_item[open] .accordion_tittle::after{
+        display: block;
+        content: url(/image/mini-strel.png);
+        position: absolute;
+        right: 273px;
+        top: 50%;
+        transform: translateY(-50%);
+    
+    }
+
+    .vector2{
+        display: none;
+    }
+
+    .abstract_two{
+        display: none;
+    }
+
+
+
+ 
+
+
+}
+
+
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 320px;
+        width: 100%;
+    }
+    .logo-img{
+        max-width: 160px;
+        width: 100%;
+    }
+
+    .tehnologi-i{
+
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .accordion{
+        width: 300px;
+    }
+
+    .accordion_tittle{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 20px */
+        
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top: 12px;
+        padding-left: 17px;
+        padding-bottom: 12px;
+    }
+
+    .accordion_body{
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 140%;
+        position: relative;
+    }
+
+    .row{
+        display: block;
+        /* grid-template-columns: repeat(12, 1fr); */
+    }
+
+    .accordion_item{
+        width: 310px;
+        margin-left: 40px;
+    }
+
+    .provision_tittle{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        /* identical to box height, or 28px */
+        
+        text-align: center;
+        margin-left: 28px;
+    }
+
+    .provision_cards{
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .provision_card{
+        width: 310px;
+        /* height: 500px; */
+        margin-left: 40px;
+    }
+
+    .provision_titt{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+        /* or 20px */
+        
+        text-transform: uppercase;
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-right: 5px;
+        
+     
+    }
+
+    .provision_div{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+        padding: 0px 4px 26px 20px;
+    }
+
+    .accordion_tittle::after{
+        display: block;
+        content: url(/image/mini-plys.png);
+        position: absolute;
+        right: 285px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .accordion_item[open] .accordion_tittle::after{
+        display: block;
+        content: url(/image/mini-strel.png);
+        position: absolute;
+        right: 285px;
+        top: 50%;
+        transform: translateY(-50%);
+    
+    }
+
+    .vector2{
+        display: none;
+    }
+
+    .abstract_two{
+        display: none;
+    }
+
+
+
+ 
+
+
+}
+
+
+
+
